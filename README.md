@@ -12,4 +12,8 @@ bundle install
 brew install redis
 redis-server # 다른 터미널
 bundle exec sidekiq # 다른 터미널
+rake db:migrate
+rake db:seed
+rails like:movie
+rails like:book
 ```
